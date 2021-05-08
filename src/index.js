@@ -1,7 +1,9 @@
 //import { compareDesc, compareAsc, format } from 'date-fns';
-import {showingTaskForm} from './modules/addTask';
+//import {showingTaskForm} from './modules/taskForm';
 //ordenar desde mas viejas compareDesc, desde las mas nuevas asc
-
+import {DOM_CONTENT, DOM_EVENTS} from './modules/UI';
+DOM_CONTENT()
+DOM_EVENTS()
 //console.log(format(new Date(), 'yyyy-MM-dd'))
 //=> '2014-02-11'
 
@@ -16,6 +18,4 @@ import {showingTaskForm} from './modules/addTask';
   Mon Jul 10 1989 00:00:00,
   Sun Jul 02 1995 00:00:00
 ]*/
-
-
-document.addEventListener('DOMContentLoaded', showingTaskForm)
+//document.addEventListener('DOMContentLoaded', showingTaskForm)
